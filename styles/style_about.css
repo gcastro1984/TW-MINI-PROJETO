@@ -1,0 +1,5 @@
+.flex_about_us{
+    display: flex;
+    flex: auto;
+    justify-content: center;
+}
