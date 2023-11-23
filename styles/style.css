@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
 
 body {
-    background-color: rgb(170, 41, 9);
+    background-color: rgb(212, 75, 75);
     font-family: 'Playfair Display', serif;
-    color: rgb(212, 226, 226)248);
+    color: rgb(255, 255, 255);
     
 
 }
@@ -15,6 +15,9 @@ body {
 img{
 
     width: 100%;
+    margin: 0px;
+    height: 100vh;
+    
     
 }
 
