@@ -2,9 +2,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
 
 body {
-    background-color: rgb(212, 75, 75);
     font-family: 'Playfair Display', serif;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 243, 243);
+    font-size: 15px;
+    line-height: 1.5;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("/assets/img_index.jpg");
+    min-height: 90%;
+    height:100vh;
+
+    
+
+}
+
+
+.header{
+    display: flex;
+    align-items: center;
     
 
 }
@@ -12,12 +27,33 @@ body {
     text-align: center;
 
 }
-img{
+
+.navbar_index{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    font-size:x-large;
+    text-decoration: none;
+}
+
+.footer_index{
+}
+
+
+.social_links_div{
+    box-shadow: blanchedalmond;
+    
+
+}
+/*img{
 
     width: 100%;
     margin: 0px;
     height: 100vh;
     
     
-}
+}/*
+
+
 
