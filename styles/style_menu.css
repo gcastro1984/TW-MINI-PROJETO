@@ -8,7 +8,7 @@ body {
     line-height: 1.5;
     background-repeat: no-repeat;
     background-size:cover;
-    background-image: url("/assets/img_index.jpg");
+    background-image: url("/assets/background_menu_op.jpg");
     min-height: 90%;
     height:100vh;
     
@@ -28,3 +28,20 @@ body {
     font-size:x-large;
     text-decoration: none;
 }
+
+.hero_menu{
+    margin-top: 60px;
+    display: grid;
+    justify-items: center;
+    background-color:rgb(205, 93, 13,0.5);
+    border-radius: 10%;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+
+.img{
+    height: 400px;
+    
+}
+

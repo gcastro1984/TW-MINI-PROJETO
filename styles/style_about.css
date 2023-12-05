@@ -1,3 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: rgb(255, 243, 243);
+    font-size: 15px;
+    line-height: 1.5;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: url("/assets/background_about.jpg");
+    min-height: 90%;
+    height:100vh;
+    
+
+}
+
 .flex_about_us{
     display: flex;
     justify-content: center;
