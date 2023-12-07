@@ -37,11 +37,12 @@ body {
     border-radius: 10%;
     grid-template-columns: repeat(2, 1fr);
     column-gap: 30px;
-    row-gap: 30px;
+    row-gap: 100px;
   }
 
-.img{
-    height: 400px;
+div>img{
+    height: 350px;
+    border-radius: 10px ;
     
 }
 

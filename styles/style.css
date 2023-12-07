@@ -1,5 +1,6 @@
 @import url(style_about.css);
 @import url(style_menu.css);
+@import url(style_reservas.css);
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
 
 body {
@@ -28,13 +29,34 @@ body {
 }
 
 .navbar_index{
-    margin-left: auto;
-    margin-top: auto;
-    margin-bottom: auto;
-    margin-right: auto;
-    font-size:x-large;
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 20px 100px;
     text-decoration: none;
+    background-color: rgb(205, 93, 13,0.5);
+    transition: all 0.9s ease;
+
+
 }
+.logo_img{
+    border-radius: 45px;
+
+}
+.navbar_index_option:hover{
+    transform: scale(0.9) rotate(-6deg);
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+    margin: 30px;
+
+}
+a:hover{
+    transform: scale(0.9) rotate(-6deg);
+
+}
+
 
 .footer_index{
     background-color:rgb(205, 93, 13,0.5);
