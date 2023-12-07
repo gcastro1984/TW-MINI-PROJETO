@@ -1,15 +1,18 @@
-body{
-    background-image: url("/assets/img_reservation.jpg");
-}
-
 h1{
     align-items: center;
 }
+.hero_reservas{
+    margin: 50px;
+    padding: 20px;
+    display: flex;
+
+}
 .form_reservas{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(205, 93, 13);
     width: auto;
     margin: 60px;
     padding: 20px;
     
     
 }
+
