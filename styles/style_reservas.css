@@ -1,18 +1,29 @@
 h1{
     align-items: center;
+
 }
 .hero_reservas{
     margin: 50px;
     padding: 20px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 .form_reservas{
     background-color: rgb(205, 93, 13);
     width: auto;
-    margin: 60px;
     padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+
     
     
+}
+.form_reservas_reservebtn{
+    border-radius: 8px;
+    margin-left: 40px;
 }
 

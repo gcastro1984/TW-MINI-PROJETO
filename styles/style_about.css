@@ -13,6 +13,26 @@ body {
     
 
 }
+.about_us_article{
+    width: 800px;
+
+}
+.about_us_article_paragraph{
+    font-size: 15px;
+    text-transform:  none;
+
+}
+.about_us_paragraph_span{
+    font-size: 20px;
+    text-transform: uppercase;
+    color: rgb(205, 93, 13);
+
+
+}
+.about_us_paragraph_span:hover{
+
+
+}
 
 .flex_about_us{
     display: flex;

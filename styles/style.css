@@ -13,7 +13,6 @@ body {
     background-image: url("/assets/img_indexv_op.jpg");
     min-height: 90%;
     height:100vh;
-    overflow: hidden;
     
 }
 
@@ -43,18 +42,20 @@ body {
     border-radius: 45px;
 
 }
-.navbar_index_option:hover{
-    transform: scale(0.9) rotate(-6deg);
+.navbar_index_option{
+    transition: .5s ease;
 }
+.navbar_index_option:hover{
+        color: #000000;
+        transform: scale(0.9);
+        box-shadow: 0 0 0 5px #000000;
+        transition: .5s ease
+      }
 
 a{
     text-decoration: none;
     color: aliceblue;
     margin: 30px;
-
-}
-a:hover{
-    transform: scale(0.9) rotate(-6deg);
 
 }
 
