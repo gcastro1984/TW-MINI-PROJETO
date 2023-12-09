@@ -1,18 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
 
-body {
-    font-family: 'Playfair Display', serif;
-    color: rgb(255, 243, 243);
-    font-size: 15px;
-    line-height: 1.5;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-image: url("/assets/background_about.jpg");
-    min-height: 90%;
-    height:100vh;
-    
-
-}
 .about_us_article{
     width: 800px;
 
@@ -29,7 +16,12 @@ body {
 
 
 }
+.about_us_paragraph_span{
+    transition: 1s ease;
+}
 .about_us_paragraph_span:hover{
+    border-radius:50%;
+    transition: 1s ease;
 
 
 }
@@ -37,4 +29,11 @@ body {
 .flex_about_us{
     display: flex;
     justify-content: center;
+}
+.youtube_video_div{
+    margin-left: 250px;
+}
+.youtube_video{
+    border-radius: 8px;
+    
 }
