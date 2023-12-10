@@ -13,9 +13,9 @@ body {
     background-image: url("/assets/img_indexv_op.jpg");
     min-height: 90%;
     height:100vh;
+    margin: 0;
     
 }
-
 
 .header{
     display: flex;
@@ -25,6 +25,7 @@ body {
 }
 .hero{
     text-align: center;
+    
 
 }
 
@@ -34,10 +35,17 @@ body {
     padding: 20px 100px;
     text-decoration: none;
     background-color: rgb(205, 93, 13,0.5);
-    transition: all 0.9s ease;
+    transition: all 1.5s ease;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    font-size:x-large;
+    text-decoration: none;
+    }
 
 
-}
+
 .logo_img{
     border-radius: 45px;
 
@@ -72,6 +80,7 @@ a{
     left: 0;
     display: flex;
     justify-content:space-between;
+    padding-bottom: 20px;
 }
 
 

@@ -2,36 +2,34 @@
 
 .about_us_article{
     width: 800px;
+    height: 350px;
+    overflow: auto;
 
 }
 .about_us_article_paragraph{
     font-size: 15px;
     text-transform:  none;
+    
+    margin:auto;
+    padding: 20px;
 
 }
 .about_us_paragraph_span{
     font-size: 20px;
     text-transform: uppercase;
-    color: rgb(205, 93, 13);
-
-
-}
-.about_us_paragraph_span{
-    transition: 1s ease;
-}
-.about_us_paragraph_span:hover{
-    border-radius:50%;
-    transition: 1s ease;
+    color: rgb(0, 0, 0);
 
 
 }
 
 .flex_about_us{
     display: flex;
-    justify-content: center;
+    margin: 20px;
+    background-color:rgb(205, 93, 13,0.5);
+    padding: 10px;
 }
 .youtube_video_div{
-    margin-left: 250px;
+    height: 300px;
 }
 .youtube_video{
     border-radius: 8px;
